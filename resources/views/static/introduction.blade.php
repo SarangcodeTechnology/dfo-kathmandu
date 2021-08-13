@@ -5,7 +5,7 @@
 @section('title',setting('site.title'))
 
 @section('body')
-<div class="breadcrumbs" style="background: #424242">
+{{-- <div class="breadcrumbs" style="background: #424242">
     <div class="container">
         <div class="bread-inner">
             <div class="row">
@@ -22,7 +22,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <div class="inner-content-wrapper blog-sec blog-area">
     <div class="container">
         <div class="row">
@@ -30,7 +30,7 @@
             <div class="col-xl-9 col-lg-9 mb-30">
                 <div class="blog-details">
                     <div>
-                        <h4><strong>सङ्गक्षिप्त परिचय</strong></h4>
+                        <h4><strong>संक्षिप्त परिचय</strong></h4>
                         <p style="text-align: justify;">काठमाण्डौ जिल्लाको वन सम्पदाको संरक्षण, विकास र व्यवस्थापन गर्ने उद्धेश्यले २०१६ सालमा काठमाण्डौ वन डिभिजन कार्यालयको स्थापना भएको थियो भने सालमा २०४१ वन संगठनको संरचनामा परीवर्नन गरी जिल्ला वन कार्यालयको स्थापना भएको थियो ।मुलुकमा गणतन्त्रको स्थापना र संघिय संरचना मा गए संगै राष्ट्रीय वनको व्यवस्थापन प्रदेश सरकारको मातहतमा गएको छ र वनको सांगठनिक संरचनामा पनि केही परीवर्तन भएको छ ।हालयस जिल्लामा १ वटा डिभिजन वन कार्यालय, ६ वटा सवडिभिजन वन कार्यालय र १ वटा वन पैदावार चेकपोष्ट रहेको छ ।</p>
                     </div>
                     <!--

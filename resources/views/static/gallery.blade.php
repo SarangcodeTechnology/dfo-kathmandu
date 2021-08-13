@@ -4,10 +4,10 @@
 
 @section('body')
 
-    @include('include.breadcrumps',[
+    {{-- @include('include.breadcrumps',[
         'title'=>'ग्यालरी',
         'hasParent'=>0,
-    ])
+    ]) --}}
     <!-- End Feature section Area -->
     <section class="inner-content-wrapper blog-sec">
         <div class="container">

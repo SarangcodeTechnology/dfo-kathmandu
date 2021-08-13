@@ -4,12 +4,12 @@
 
 @section('body')
     <!-- Breadcrumbs -->
-    @include('include.breadcrumps',[
+    {{-- @include('include.breadcrumps',[
         'title'=>$gallery->title,
         'hasParent'=>1,
         's_title'=>'ग्यालरी',
         's_link'=>'/s/gallery',
-    ])
+    ]) --}}
     <!-- End Breadcrumbs -->
     <!-- End Feature section Area -->
     <section class="gallery-block compact-gallery">

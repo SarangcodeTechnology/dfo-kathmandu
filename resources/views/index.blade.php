@@ -104,7 +104,7 @@ if ($('.modal:visible').length) {
             <div class="officer-card mt-3 mt-lg-0" style="">
                 <div class="officers">
                     <div class="officer-img">
-                        <img src="/images/blank-user.jpg">
+                        <img src="/images/badri_kumar_karki.jpg">
                     </div>
                     <div class="officer-designation">
                         <strong>कार्यलय प्रमुख</strong>
@@ -115,7 +115,7 @@ if ($('.modal:visible').length) {
                 </div>
                 <div class="officers">
                     <div class="officer-img">
-                        <img src="/images/blank-user.jpg">
+                        <img src="/images/anil_regmi.jpg">
                     </div>
                     <div class="officer-designation">
                         <strong>सूचना अधिकारी</strong>

@@ -7,8 +7,8 @@
           <!-- Top Contact -->
           <ul class="top-contact">
             <li><i class="fas fa-map-marker-alt"></i>हात्तीसार, कठमाण्डौ, नेपाल</li>
-            <li><i class="fa fa-phone"></i>नेपाल फोन:<a href="tel:+977 123456789">+९७७ १२३४५६७८९</a></li>
-            <li><a href="mailto: test@gmail.com"><i class="fa fa-envelope"></i>test@gmail.com</a></li>
+            <li><i class="fa fa-phone"></i>नेपाल फोन:<a href="tel:+977 01-5524414">+९७७ ०१-५५२४४१४</a></li>
+            <li><a href="mailto: dfoktm@gmail.com"><i class="fa fa-envelope"></i>dfoktm@gmail.com</a></li>
             <li><i class="fa fa-calendar"></i>{{ TodayDate::nepali() }}</li>
           </ul>
           <!-- End Top Contact -->
@@ -55,17 +55,21 @@
   <!-- End Topbar -->
   <div class="container p-0" style="position: relative;">
     <div class="row justify-content-between align-items-center">
-      <div class="col-lg-3 col-md-3 col-9" style="display: inline-block;">
+        <div class="col-lg-4 col-4">
+        <div class="nepal-flag" style="height: 87px; float:left;">
+          <img src="/images/nepal_emblem_new.gif" alt="" style="height: 100%">
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-9" style="display: inline-block;">
         <!-- Start Logo -->
         <div class="logo" style="height: 70px; padding-left:12px">
           <a href="#">
             <div class="dfo-logo">
-              <img src="/images/nepal_emblem_new.gif">
               <div class="logo-desc">
-                <span class="logo-address">प्रदेश सरकार</span>
-                <span class="logo-address">उद्दाेग, पर्यटन, वन तथा वातावरण मन्त्रालय</span>
+                <span class="logo-address">प्रदेश सरकार - उध्योग, पर्यटन, वन तथा वातावरण मन्त्रालय</span>
+                <span class="logo-address">प्रदेश वन निर्देशनालय</span>
                 <span class="logo-title">डिभिजन वन कार्यलय, काठमाण्डौ</span>
-                <span class="logo-address">बाग्मती, नेपाल</span>
+                <span class="logo-address">बाग्मती प्रदेश, नेपाल</span>
               </div>
             </div>
           </a>
@@ -76,9 +80,9 @@
         <!-- Mobile Nav -->
         <!-- End Mobile Nav -->
       </div>
-      <div class="col-lg-3 col-3">
+      <div class="col-lg-4 col-4">
         <div class="nepal-flag" style="height: 87px; float:right;">
-          <img src="/images/nepal-flag.gif" alt="" style="height: 100%">
+          <img src="/images/forest_image.jpeg" alt="" style="height: 100%">
         </div>
       </div>
     </div>
@@ -95,8 +99,8 @@
             <!-- Main Menu -->
             <div class="main-menu">
               <nav class="navigation">
-                <ul class="nav menu">
-                  @foreach (menu('dfo-khotang','_json') as $item)
+                <ul class="nav menu d-flex justify-content-center">
+                  @foreach (menu('dfo-kathmandu','_json') as $item)
                   <li class="{{ checkActive($item) }}">
                     <a href="{{$item->url}}">{{$item->title}} @if(!$item->children->isEmpty())<i
                         class="icofont-rounded-down"></i>@endif</a>

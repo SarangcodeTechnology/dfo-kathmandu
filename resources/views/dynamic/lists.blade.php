@@ -18,11 +18,11 @@
 @section('body')
 
     <!-- Breadcrumbs -->
-    @include('include.breadcrumps',[
+    {{-- @include('include.breadcrumps',[
         's_title',
         'hasParent',
         'title'=>$data->title,
-        ])
+        ]) --}}
     <!-- End Breadcrumbs -->
     <!-- Start Feature section Area -->
     <div class="inner-content-wrapper blog-sec blog-area">

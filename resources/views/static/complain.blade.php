@@ -5,10 +5,10 @@
 @section('body')
 <!-- Breadcrumbs -->
 
-@include('include.breadcrumps',[
+{{-- @include('include.breadcrumps',[
 'title'=>'सुझाव / गुनासो / उजुरी',
 'hasParent'=>0,
-])
+]) --}}
 
 <!-- End Breadcrumbs -->
 <div class="inner-content-wrapper contact-section">
@@ -18,7 +18,7 @@
             {{ session('success') }}
         </div>
         @endif
-           
+
         <div class="default-form-area">
              <p class="text-secondary primary text-left font-weight-normal">तपाईंले निम्न फारम मार्फत आफ्ना सुझाव,गुनासो तथा उजुरी यस डिभिजन वन कार्यालयलाई पठाउन सक्नुहुन्छ। सो
                 तरिका ले पठायिएको कुनै पनि सन्देशले तपाईंको ब्यक्तिगत जानकारी सम्प्रेशन गरेर राख्ने छैन। तपाईंको

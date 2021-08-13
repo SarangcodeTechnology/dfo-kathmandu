@@ -5,14 +5,14 @@
 @section('body')
 <!-- Breadcrumbs -->
 
-@include('include.breadcrumps',[
+{{-- @include('include.breadcrumps',[
 'title'=>'सम्पर्क',
 'hasParent'=>0,
-])
-<div class="inner-content-wrapper contact-section pt-0 bg-light">
+]) --}}
+<div class="inner-content-wrapper contact-section pt-0  bg-light">
     <div class="container">
 
-        <div class="contact-info">
+        <div class="contact-info mb-0">
             @if(session('success'))
             <div class="alert alert-success">
                 {{ session('success') }}
@@ -31,7 +31,7 @@
                     <div class="contact-info-block">
                         <i class="fas fa-map-marker-alt fa-2x mb-2"></i>
                         <h5>ठेगाना</h5>
-                        <div class="text">डिभिजन वन कार्यलय, काठमाण्डौ</div>
+                        <div class="text">हात्तीसार, कठमाण्डौ</div>
                         <div class="text">बाग्मती, नेपाल</div>
                     </div>
                 </div>
@@ -39,8 +39,7 @@
                     <div class="contact-info-block">
                         <i class="fa fa-envelope fa-2x mb-2"></i>
                         <h5>ई-मेल</h5>
-                        <div class="text">demo@gmail.com</div>
-                        <div class="text">demo@gmail.com</div>
+                        <div class="text">dfoktm@gmail.com</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
@@ -54,9 +53,16 @@
         </div>
     </div>
 </div>
+<div class="inner-content-wrapper contact-section pt-0  bg-light">
+
+    <div class="container map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.1993783294815!2d85.32012561408334!3d27.711129731934616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x84e2ef896904f231!2z4KSc4KS_4KSy4KWN4KSy4KS-IOCkteCkqCDgpJXgpL7gpLDgpY3gpK_gpLLgpK8sIOCkleCkvuCkoOCkruCkvuCkoeCljA!5e0!3m2!1sne!2snp!4v1628842503307!5m2!1sne!2snp" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</div>
 <!-- End Breadcrumbs -->
 <div class="inner-content-wrapper contact-section">
     <div class="container">
+
         <div class="sec-title centered mb-20">
             <h1>सन्देश पठाउनुहोस्</h1>
         </div>

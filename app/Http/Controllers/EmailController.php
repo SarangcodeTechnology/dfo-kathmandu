@@ -27,12 +27,11 @@ class EmailController extends Controller
             'g-recaptcha-response' => 'required|recaptcha'
         ];
         Mail::send('email.complain', $data, function ($message) use ($data) {
-            $message->from('info@dfokhotang.gov.np', 'Complain');
+            $message->from('info@dfokathmandu.bagamati.gov.np', 'Complain');
             $message->to([
-                'er.ajeebrimal@gmail.com',
-                'er.kshitizshrestha@gmail.com'
+                'complain@dfokathmandu.bagamati.gov.np'
             ]);
-            $message->subject('Complain From Division Forest Office');
+            $message->subject('Complain Form - Division Forest Office, Kathmandu');
         });
 
         return redirect()->back()->with('success', 'तपाईको सन्देश सफलताका साथ डिभिजन वन कार्यालयमा पठाईएको छ। तपाईकोे सुझाव,गुनासो तथा उजुरीहरुलाई यस डिभिजन वन कार्यालयले गम्भिर्ताका साथ हेर्नेछ।');
@@ -52,15 +51,14 @@ class EmailController extends Controller
             'form_phone' => $request->form_phone,
             'form_address' => $request->form_address,
             'form_message' => $request->form_message,
-            'g-recaptcha-response' => 'required|recaptcha'
+            // 'g-recaptcha-response' => 'required|recaptcha'
         ];
         Mail::send('email.contact', $data, function ($message) use ($data) {
-            $message->from($data['form_email'], 'Message');
+            $message->from('info@dfokathmandu.bagamati.gov.np', 'Message');
             $message->to([
-                'er.ajeebrimal@gmail.com',
-                'er.kshitizshrestha@gmail.com'
+                'contact@dfokathmandu.bagamati.gov.np'
             ]);
-            $message->subject('Contact Form - Division Forest Office');
+            $message->subject('Contact Form - Division Forest Office, Kathmandu');
         });
 
         return redirect()->back()->with('success', 'तपाईको सन्देश सफलताका साथ डिभिजन वन कार्यालयमा पठाईएको छ। तपाईकोे सन्देश विश्लेषण पश्चात सम्बोधन गरिनेछ।');
