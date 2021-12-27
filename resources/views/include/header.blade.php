@@ -7,7 +7,7 @@
           <!-- Top Contact -->
           <ul class="top-contact">
             <li><i class="fas fa-map-marker-alt"></i>हात्तीसार, कठमाण्डौ, नेपाल</li>
-            <li><i class="fa fa-phone"></i>नेपाल फोन:<a href="tel:+977 01-5524414">+९७७ ०१-५५२४४१४</a></li>
+            <li><i class="fa fa-phone"></i>नेपाल फोन:<a href="tel:+977 014544948">०१४५४४९४८</a></li>
             <li><a href="mailto: dfoktm@gmail.com"><i class="fa fa-envelope"></i>dfoktm@gmail.com</a></li>
             <li><i class="fa fa-calendar"></i>{{ TodayDate::nepali() }}</li>
           </ul>
@@ -66,10 +66,11 @@
           <a href="#">
             <div class="dfo-logo">
               <div class="logo-desc">
-                <span class="logo-address">प्रदेश सरकार - उध्योग, पर्यटन, वन तथा वातावरण मन्त्रालय</span>
-                <span class="logo-address">प्रदेश वन निर्देशनालय</span>
+                <span class="logo-address">प्रदेश सरकार</span>
+                <span class="logo-address">बागमती प्रदेश</span>
+                <span class="logo-address">वन तथा वातावरण मन्त्रालय</span>
+                <span class="logo-address">वन निर्देशनालय</span>
                 <span class="logo-title">डिभिजन वन कार्यलय, काठमाण्डौ</span>
-                <span class="logo-address">बाग्मती प्रदेश, नेपाल</span>
               </div>
             </div>
           </a>

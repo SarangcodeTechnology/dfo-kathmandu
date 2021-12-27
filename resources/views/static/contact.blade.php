@@ -46,7 +46,7 @@
                     <div class="contact-info-block fa-2x mb-2" style="min-height: 197px">
                         <i class="fa fa-phone"></i>
                         <h5>फोन</h5>
-                        <div class="text">+९७७ ०३६ ४२०१३४ </div>
+                        <div class="text">०१४५४४९४८</div>
                     </div>
                 </div>
             </div>

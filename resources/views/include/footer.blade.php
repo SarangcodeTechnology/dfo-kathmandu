@@ -31,7 +31,7 @@
                     <li class="text-light mb-3">
                         <address>ठेगाना: हात्तीसार, कठमाण्डौ, नेपाल</address>
                     </li>
-                    <li class="text-light mb-3"><a href="tel:+977 01-5524414">फोन: +९७७ ०१-५५२४४१४</a> </li>
+                    <li class="text-light mb-3"><a href="tel:+977 014544948">फोन: ०१४५४४९४८</a> </li>
                     <li class="text-light mb-3"><a href="mailto: khodfo@dof.gov.np">ई-मेल: dfoktm@gmail.com</a></li>
                 </ul>
                 <!-- social links -->
