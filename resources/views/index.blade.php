@@ -115,13 +115,16 @@ if ($('.modal:visible').length) {
                 </div>
                 <div class="officers">
                     <div class="officer-img">
-                        <img src="/images/anil_regmi.jpg">
+                        <img src="/images/shivaram-thapa.jpg">
                     </div>
                     <div class="officer-designation">
                         <strong>सूचना अधिकारी</strong>
                     </div>
+                    <div class="officer-designation">
+                        <strong>सम्पर्क न‌ं‍ ९८६३१९७२७६</strong>
+                    </div>
                     <div class="officer-name">
-                        अनिल रेग्मी
+                        शिवराम थापा 
                     </div>
                 </div>
             </div>
