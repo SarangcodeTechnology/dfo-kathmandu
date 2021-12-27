@@ -62,7 +62,7 @@
       </div>
       <div class="col-lg-4 col-md-4 col-9" style="display: inline-block;">
         <!-- Start Logo -->
-        <div class="logo" style="height: 70px; padding-left:12px">
+        <div class="logo" style="height: 88px; padding-left:12px">
           <a href="#">
             <div class="dfo-logo">
               <div class="logo-desc">
