@@ -120,11 +120,12 @@ if ($('.modal:visible').length) {
                     <div class="officer-designation">
                         <strong>सूचना अधिकारी</strong>
                     </div>
-                    <div class="officer-designation">
-                        <strong>सम्पर्क न‌ं‍ ९८६३१९७२७६</strong>
-                    </div>
+                    
                     <div class="officer-name">
                         शिवराम थापा 
+                    </div>
+                    <div>
+                        <strong>सम्पर्क न‌ं‍ ९८६३१९७२७६</strong>
                     </div>
                 </div>
             </div>
