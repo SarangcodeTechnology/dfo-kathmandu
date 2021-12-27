@@ -124,8 +124,8 @@ if ($('.modal:visible').length) {
                     <div class="officer-name">
                         शिवराम थापा 
                     </div>
-                    <div>
-                        <strong>सम्पर्क न‌ं‍ ९८६३१९७२७६</strong>
+                    <div class="officer-name">
+                        ९८६३१९७२७६
                     </div>
                 </div>
             </div>
